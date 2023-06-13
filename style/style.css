@@ -1,3 +1,6 @@
+a{
+    text-decoration: none;
+}
 header{
     width: 100%;
 
@@ -57,13 +60,28 @@ header{
     background-color: rgb(247, 240, 240);
 }
 /***** blogs section ******/
-.mycol {
-    width: 33%;
-}
-.mycontainer{
+.myContainer{
     width: 90% !important;
     margin: auto;
 }
+.p_font{
+    font-size: 13px;
+    color: #a1a1a1;
+}
+.p_font a{
+    color: #a1a1a1;
+    text-decoration: none;
+    transition: 1s;
+}
+.p_font a:hover{
+    color: #202020;
+    text-decoration: underline;
+}
+.Card_color:hover{
+    color: #5f0221;
+}
+
+
 
 
 
