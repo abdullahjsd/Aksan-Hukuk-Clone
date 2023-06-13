@@ -20,6 +20,50 @@ header{
     height: auto;
     overflow: hidden;
 }
+/************  section about us ************/
+.about h4{
+    color: #990033;
+}
+.service{
+    height: 400px;
+    background-image: url(https://aksan.av.tr/Photos/PageContent/thumbs/a42e67fa.jpg);
+    background-size: cover;
+    position: relative;
+    z-index:99;
+}
+.grediend{
+    background: #020a20 !important;
+    position: absolute;
+    height: 400px;
+    width: 100%;
+    opacity: .7;
+    z-index: -99;
+}
+.write span a{
+    font-size: 1rem;
+    text-decoration: none;
+    padding: .3rem 1rem;
+    color: rgb(170, 160, 160);
+    border-radius: .1rem;
+    border-bottom: 1px solid white;
+    transition: 1s;
+}
+.write span{
+    display: inline-block;
+    margin-top: 1rem;
+}
+.write span a:hover{
+    color: rgb(12, 12, 12);
+    background-color: rgb(247, 240, 240);
+}
+/***** blogs section ******/
+.mycol {
+    width: 33%;
+}
+.mycontainer{
+    width: 90% !important;
+    margin: auto;
+}
 
 
 
@@ -43,17 +87,16 @@ header{
 
 
 
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 700px) {
-    denem {
-      width: 700;
+@media only screen and (max-width: 750px) {
+    .about {
+      width: 85%!important;
 
     }
+    .write {
+        width: 85%!important;
+  
+      }
+      .service ,.grediend{
+        max-height:300px ;
+      }
   }
