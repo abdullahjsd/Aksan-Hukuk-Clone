@@ -78,7 +78,8 @@ header{
     text-decoration: underline;
 }
 .Card_color:hover{
-    color: #5f0221;
+    color: #990033!important;
+    transition: 1s;
 }
 
 
