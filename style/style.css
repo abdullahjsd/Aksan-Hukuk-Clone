@@ -1,6 +1,9 @@
 a{
     text-decoration: none;
 }
+.clr{
+    color: #990033!important;
+}
 header{
     width: 100%;
 
@@ -42,6 +45,9 @@ header{
     opacity: .7;
     z-index: -99;
 }
+.w-60{
+    width: 60%;
+}
 .write span a{
     font-size: 1rem;
     text-decoration: none;
@@ -64,6 +70,9 @@ header{
     width: 90% !important;
     margin: auto;
 }
+.card{
+    border: none;
+}
 .p_font{
     font-size: 13px;
     color: #a1a1a1;
@@ -81,6 +90,89 @@ header{
     color: #990033!important;
     transition: 1s;
 }
+.myfont{
+    font-size: 19px;
+}
+.fotn_two{
+    font-size: 17px;
+}
+.line{
+    line-height: 18px;
+    font-family: 'Kalam', cursive;
+    font-weight: 100 !important;
+    color: #6d6e72;
+}
+#line{
+    line-height: 18px;
+    font-family: 'Kalam', cursive;
+    font-weight: 100 !important;
+    color: #6d6e72;
+}
+/******************************************/
+/*****  foother ****/
+footer{
+    background-color: #020a20!important;
+    font-weight: 500;
+    font-size: 11px;
+}
+.clear{
+    padding-left: 0;
+}
+li{
+    list-style-type: none;
+}
+.clear a{
+    color: #ffffff;
+    display: inline-block;
+    transition: .5s;
+}
+.clear a:hover{
+    color: rgb(138, 134, 134)!important ;
+}
+.fs{
+    font-size: 14px;
+}
+.pad{
+    display: inline;
+    padding-bottom: 3px;
+}
+.clear li{
+    margin-top: .5rem;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+/* footer{
+    color: #ffffff;
+    font-size: 15px;
+    transition: .5s;
+}
+footer a{
+    color: rgb(255, 255, 255)!important ;
+}
+footer a:hover{
+    color: rgb(138, 134, 134)!important ;
+}
+.hf{
+    font-size: 14px;
+}
+
+.features_foother *{
+   display: block;
+}
+.features_foother{
+    font-size: 12px;
+ }
+
+ */
 
 
 
@@ -98,14 +190,19 @@ header{
 
 
 
-
-
-
-
-
-
-
-
+ @media only screen and (max-width: 768px) {
+    .footer_parent{
+        text-align: center;
+        width: 95%!important;
+    }
+    footer *{
+        padding: 0;
+        margin: 0;
+    }
+    .d-768{
+        display: none!important;
+    }
+  }
 @media only screen and (max-width: 750px) {
     .about {
       width: 85%!important;
@@ -118,4 +215,10 @@ header{
       .service ,.grediend{
         max-height:300px ;
       }
+  }
+@media only screen and (max-width: 500px) {
+    .blog_h4 h4{
+        margin-top: 1.5rem;
+        margin-bottom: 0px!important;
+    }
   }
