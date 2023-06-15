@@ -1,16 +1,11 @@
-a{
+*{
     text-decoration: none;
-}
-.clr{
-    color: #990033!important;
+    list-style-type: none;
 }
 header{
     width: 100%;
+}
 
-}
-.mgauto{
-    margin: auto;
-}
 .logo_img img{
     margin: 1.5rem 1rem;
 }
@@ -48,12 +43,9 @@ header{
     opacity: .7;
     z-index: -99;
 }
-.w-60{
-    width: 60%;
-}
+
 .write span a{
     font-size: 1rem;
-    text-decoration: none;
     padding: .3rem 1rem;
     color: rgb(170, 160, 160);
     border-radius: .1rem;
@@ -69,10 +61,7 @@ header{
     background-color: rgb(247, 240, 240);
 }
 /***** blogs section ******/
-.myContainer{
-    width: 90% !important;
-    margin: auto;
-}
+
 .card{
     border: none;
 }
@@ -93,12 +82,7 @@ header{
     color: #990033!important;
     transition: 1s;
 }
-.myfont{
-    font-size: 19px;
-}
-.fotn_two{
-    font-size: 17px;
-}
+
 .line{
     line-height: 18px;
     font-family: 'Kalam', cursive;
@@ -132,9 +116,7 @@ li{
 .clear a:hover{
     color: rgb(138, 134, 134)!important ;
 }
-.fs{
-    font-size: 14px;
-}
+
 .pad{
     display: inline;
     padding-bottom: 3px;
@@ -166,11 +148,53 @@ li{
 .hg{
     height: 500px;
 }
-.about .grediend{
-
+.history li a{
+    color: #6d6e72;
+}
+.history li a:hover{
+    color: #990033!important;
 }
 
 
+
+
+/**************************************/
+/***************************************/
+/******* general css**********/
+a{
+    text-decoration: none;
+}
+.clr{
+    color: #990033!important;
+    font-size: 18px;
+    font-weight: bold;
+}
+.mgauto{
+    margin: auto;
+}
+.w-60{
+    width: 60%;
+}
+.myContainer{
+    width: 90% !important;
+    margin: auto;
+}
+.myfont{
+    font-size: 19px;
+}
+.fotn_two{
+    font-size: 17px;
+}
+.fs{
+    font-size: 14px;
+}
+span{
+    padding: 0!important;
+    margin: 0;
+}
+.bold {
+    font-weight: bold;
+}
 
 
 
