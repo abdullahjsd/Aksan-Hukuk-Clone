@@ -139,40 +139,27 @@ li{
 .clear li{
     margin-top: .5rem;
 }
- 
-
-
-
-
-
-
-
-
-
-
-/* footer{
-    color: #ffffff;
-    font-size: 15px;
+.myC::placeholder {
+    color: rgb(75, 65, 65);
+}
+.hvr:hover{
     transition: .5s;
+    background-color: #ffffff;
+    color: black!important;
 }
-footer a{
-    color: rgb(255, 255, 255)!important ;
-}
-footer a:hover{
-    color: rgb(138, 134, 134)!important ;
-}
-.hf{
-    font-size: 14px;
+.social i:hover{
+    color: #9e9b9b!important;
 }
 
-.features_foother *{
-   display: block;
-}
-.features_foother{
-    font-size: 12px;
- }
 
- */
+
+
+
+
+
+
+
+
 
 
 
