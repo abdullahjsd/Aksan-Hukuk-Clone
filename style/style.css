@@ -1,3 +1,47 @@
+/**************************************/
+/***************************************/
+/******* general css**********/
+a{
+    text-decoration: none;
+}
+.clr{
+    color: #990033!important;
+    font-size: 18px;
+    font-weight: bold;
+}
+.mgauto{
+    margin: auto;
+}
+.w-60{
+    width: 60%;
+}
+.myContainer{
+    width: 90% !important;
+    margin: auto;
+}
+.myfont{
+    font-size: 19px;
+}
+.fotn_two{
+    font-size: 17px;
+}
+.fs{
+    font-size: 14px;
+}
+span{
+    padding: 0!important;
+    margin: 0;
+}
+.bold {
+    font-weight: bold;
+}
+.row{
+    --bs-gutter-x: 0rem;
+}
+
+
+
+
 *{
     text-decoration: none;
     list-style-type: none;
@@ -135,6 +179,12 @@ li{
 .social i:hover{
     color: #9e9b9b!important;
 }
+.social ul{
+    width: 50%;
+}
+
+
+
 /**************************/
 /****************************/
 /********* hakkimizda *******/
@@ -154,47 +204,34 @@ li{
 .history li a:hover{
     color: #990033!important;
 }
+.w_500{
+    height: 500px!important;
+} 
+.service{
+    height: 400px;
+    background-image: url(	https://aksan.av.tr/Photos/PageContent/thumbs/761b60e4.JPG);
+    background-size: cover;
+    position: relative;
+    z-index:99;
+}
+.grediend{
+    background: #020a20 !important;
+    position: absolute;
+    height: 400px;
+    width: 100%;
+    opacity: .7;
+    z-index: -99;
+}
 
 
 
 
-/**************************************/
-/***************************************/
-/******* general css**********/
-a{
-    text-decoration: none;
-}
-.clr{
-    color: #990033!important;
-    font-size: 18px;
-    font-weight: bold;
-}
-.mgauto{
-    margin: auto;
-}
-.w-60{
-    width: 60%;
-}
-.myContainer{
-    width: 90% !important;
-    margin: auto;
-}
-.myfont{
-    font-size: 19px;
-}
-.fotn_two{
-    font-size: 17px;
-}
-.fs{
-    font-size: 14px;
-}
-span{
-    padding: 0!important;
-    margin: 0;
-}
-.bold {
-    font-weight: bold;
-}
+
+
+
+
+
+
 
 
 
@@ -211,6 +248,9 @@ span{
 
 
  @media only screen and (max-width: 768px) {
+    .w-768{
+        width: 90%;
+    }
     .footer_parent{
         text-align: center;
         width: 95%!important;
@@ -221,6 +261,28 @@ span{
     }
     .d-768{
         display: none!important;
+    }
+    .m_768{
+        text-align: center;
+        justify-content: center;
+    }
+    .social ul{
+        width: 75%;
+        margin: auto;
+    }
+    .imgH{
+        max-height: 300px;
+    }
+    .bold{
+        font-weight:500 ;
+        font-size: 14px;
+    }
+    .clr{
+        font-weight:500 ;
+        font-size: 14px;
+    }
+    .w_500{
+        height: 300px!important;
     }
    
   }
@@ -241,5 +303,11 @@ span{
     .blog_h4 h4{
         margin-top: 1.5rem;
         margin-bottom: 0px!important;
+    }
+    .font-500-14{
+        font-size: 14px;
+    }
+    .font-500-17{
+        font-size: 17px;
     }
   }
