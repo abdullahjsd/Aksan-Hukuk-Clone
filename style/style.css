@@ -52,6 +52,10 @@ span{
 header{
     width: 100%;
 }
+.fixed{
+    position: fixed;
+    z-index: 9999;
+}
 
 .logo_img img{
     margin: 1.5rem 1rem;
