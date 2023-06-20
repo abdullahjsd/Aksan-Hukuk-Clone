@@ -43,6 +43,56 @@ span{
 }
 
 
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+.header{
+    width: 100%;
+    background: rgb(2, 10, 32);
+ 
+}
+
+.navbarContainer{
+    width: 95% !important;
+    margin-top: 1rem;
+}
+
+.nav-link{
+    color: white;
+}
+.nav-link:focus, .nav-link:hover {
+    color: #990033!important;
+    
+}
+
+
+.collapse-menu2 li a{
+    color: #fff;
+    text-decoration: none;
+}
+.collapse-menu2 ul{
+    list-style: none;
+}
+.collapse-menu2 li{
+    display: inline-block;
+    margin-right: 1rem;
+}
+.collapse{
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+.teamTitle{
+    padding: 5rem 0;
+}
+
 
 
 *{
@@ -51,20 +101,16 @@ span{
 }
 header{
     width: 100%;
-}
-.fixed{
     position: fixed;
-    z-index: 9999;
-    background-color: #272727;
+    z-index: 99999;
+    
 }
-.z-3{
-    z-index: 3;
-   
-}
+ 
 .bgbule{
     position: absolute;
     width: 100%;
     height: 100vh;
+    max-height: 900px;
     background: #020a20;
     z-index: 2;
     opacity: .7;
@@ -73,15 +119,8 @@ header{
     position:relative;
     z-index: 1;
 }
-.logo_img img{
-    margin: 1.5rem 1rem;
-}
-.color ul li a{
-    color: rgb(252, 252, 252);
-}
-.color ul li a:hover{
-    color: rgb(214, 190, 190);
-}
+ 
+ 
 .slider{
     background: linear-gradient(90deg, rgba(26, 22, 22, 0), rgb(0, 0, 0));
    
@@ -364,7 +403,14 @@ li{
         width: 95%!important;
      }
   }
-
+    @media only screen and (max-width: 850px) {
+    ._850{
+        height: 350px;
+    }
+    .d-none{
+        display: none!important;
+    }
+  } 
  
  @media only screen and (max-width: 768px) {
     .w-768{
@@ -444,3 +490,9 @@ li{
         font-size: 17px;
     }
   }
+  @media only screen and (max-width: 500px) {
+    ._850{
+        height: 250px;
+    }
+    
+  } 
